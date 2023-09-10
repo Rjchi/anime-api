@@ -1,0 +1,29 @@
+{
+  "name": "anime-api",
+  "version": "0.0.1",
+  "description": "Api que raspa datos de varios sitios web",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "axios",
+    "cheerio",
+    "web-scraping",
+    "dotenv",
+    "expressjs"
+  ],
+  "author": "Rjchi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "slug": "^8.2.3"
+  }
+}
